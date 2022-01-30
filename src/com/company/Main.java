@@ -14,8 +14,12 @@ public class Main {
         fizzBuzz.fizzBuzz();
         LosowanieLiczb losowanieLiczb = new LosowanieLiczb();
         losowanieLiczb.losowanie();
-        */
         InnaWersjaFor innaWersjaFor = new InnaWersjaFor();
         innaWersjaFor.innawersjafor();
+        HashSet hashSet = new HashSet();
+        hashSet.hashSet();
+        */
+        HashMap hashMap = new HashMap();
+        hashMap.hashMap();
     }
 }
