@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -18,8 +16,10 @@ public class Main {
         innaWersjaFor.innawersjafor();
         HashSet hashSet = new HashSet();
         hashSet.hashSet();
-        */
         HashMap hashMap = new HashMap();
         hashMap.hashMap();
+        */
+        Party party = new Party();
+        party.party();
     }
 }
