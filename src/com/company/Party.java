@@ -22,8 +22,8 @@ public class Party {
             switch (userChoice){
                 case 1 -> partyList.displayGuests();
                 case 2 -> partyList.addGuest();
-                case 3 -> System.out.println("wybrano 3");
-                case 4 -> System.out.println("wybrano 4");
+                case 3 -> partyList.displayMeals();
+                case 4 -> partyList.displayGuestByPhoneNumber();
                 case 5 -> shouldContinue = false;
             }
         }
